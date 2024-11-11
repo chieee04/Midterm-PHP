@@ -3,6 +3,8 @@ session_start();
 include('functions.php');
 guard();
 
+
+
 $users = array(
     array('email' => 'user1@example.com', 'password' => 'user1'),
     array('email' => 'user2@example.com', 'password' => 'user2'),
